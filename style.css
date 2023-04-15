@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    color: white;
+
+    padding: 40px;
+    padding-top: 60px;
+    font-family: 'Inter', sans-serif;
+}
+
+.heading{
+    font-size: 28px;
+    padding-bottom: 50px;
+    font-weight: 300;
+}
+
+#input-data {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    flex-basis: 0;
+    flex-grow: 1;
+    font-size: medium;
+}
+
+input{
+    border: 0.5px solid white;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 10px 0;
+    margin-right: 30px;
+    border-radius: 3px;
+    min-width: 370px;
+    height: 30px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#error {
+    color: red;
+}
+
+#success {
+    color: green;
+}
+
+#add-user {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    min-width: 160px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#pre-define{
+    color: rgba(255, 255, 255, 50%);
+}
+
+/* innerHTML style */
+
+.employee-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    min-width: 400px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    height: 35px;
+}
+
+.employee-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.employee-box span{
+    padding-inline: 10px;
+}
+
+.del-employee {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 30px;
+    height: auto;
+    font-weight: 200;
+}
